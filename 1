@@ -1,1 +1,180 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - { name: 'Hong Kong 01', type: ss, server: south.ajjpss.lol, port: 41411, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true }
+  - { name: 'Hong Kong 02', type: ss, server: south.ajjpss.lol, port: 41412, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true }
+  - { name: 'Hong Kong 03', type: ss, server: south.ajjpss.lol, port: 41413, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true }
+  - { name: 'Hong Kong 04', type: ss, server: south.ajjpss.lol, port: 41414, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true }
+  - { name: 'Hong Kong 05', type: ss, server: south.ajjpss.lol, port: 41415, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true } 
+  - { name: 'Hong Kong 06', type: ss, server: south.ajjpss.lol, port: 41416, cipher: aes-128-gcm, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true }
+  - { name: 香港_01, type: ss, server: ss2.jinhuiios.top, port: 37001, cipher: chacha20-ietf-poly1305, password: 0ShlZgkONt, udp: true }
+  - { name: 香港_02, type: ss, server: ss2.jinhuiios.top, port: 37002, cipher: chacha20-ietf-poly1305, password: 0ShlZgkONt, udp: true }
+  - { name: 香港_03, type: ss, server: gateway-h-k-03.91tutu.xyz, port: 29803, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_04, type: ss, server: gateway-h-k-04.91tutu.xyz, port: 29804, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_05, type: ss, server: gateway-h-k-05.91tutu.xyz, port: 29805, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_06, type: ss, server: gateway-h-k-06.91tutu.xyz, port: 29806, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_07, type: ss, server: gateway-h-k-07.91tutu.xyz, port: 29807, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_08, type: ss, server: gateway-h-k-08.91tutu.xyz, port: 29818, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 香港_09, type: ss, server: gateway-h-k-09.91tutu.xyz, port: 29809, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true } 
+  - { name: 香港_10, type: ss, server: gateway-h-k-10.91tutu.xyz, port: 29411, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_01, type: ss, server: gateway-u-s-01.91tutu.xyz, port: 49101, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_02, type: ss, server: gateway-u-s-02.91tutu.xyz, port: 49102, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_03, type: ss, server: gateway-u-s-03.91tutu.xyz, port: 49103, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_04, type: ss, server: gateway-u-s-04.91tutu.xyz, port: 49104, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_05, type: ss, server: gateway-u-s-05.91tutu.xyz, port: 49105, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_06, type: ss, server: gateway-u-s-06.91tutu.xyz, port: 49106, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_07, type: ss, server: gateway-u-s-07.91tutu.xyz, port: 49107, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - { name: 美国_08, type: ss, server: gateway-u-s-08.91tutu.xyz, port: 49118, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
+  - {name: 🇹🇷 土耳其1, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-Qb0s6lYI}
+  - {name: 🇹🇷 土耳其2, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-0pAibhNl}
+  - {name: 🇹🇷 土耳其3, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-LCUQHlEV}
+  - {name: 🇹🇷 土耳其4, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-bwSsoHt9}
+  - {name: 🇹🇷 土耳其5, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-Cey9RD4P}
+  - {name: 🇹🇷 土耳其6, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-fkqL6ePzLD-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 🇹🇷 土耳其7, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-59Dnnp6DlH-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 🇹🇷 土耳其8, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-umLnxxtouK-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 🇹🇷 土耳其9, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-fuuqkLh5J4-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 🇹🇷 土耳其10, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-4w0cqgPgHo-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 尼日利亚1, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-d1ogb2zm}
+  - {name: 尼日利亚2, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-1k6mshxT}
+  - {name: 尼日利亚3, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-WxBvjp1Y}
+  - {name: 尼日利亚4, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-crfeZPo4}
+  - {name: 尼日利亚5, server: ss2.jinhuiios.top, port: 37001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-tIakSyZ4}
+  - {name: 尼日利亚6, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-g7FpwdBhvI-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 尼日利亚7, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-3f7DBI9gzu-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 尼日利亚8, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-DnKOjheo5f-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 尼日利亚9, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-jzq4f5lbL3-sessTime-30, password: dJIA8BM3COPY}
+  - {name: 尼日利亚10, server: ss2.jinhuiios.top, port: 37002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-w11hnb1NF2-sessTime-30, password: dJIA8BM3COPY}
 
+
+proxy-groups:
+  - name: Googleplay
+    type: select
+    proxies:
+      -  香港_01
+      -  香港_02
+      -  香港_03
+      -  香港_04
+      - 🇹🇷 土耳其1
+      - 🇹🇷 土耳其2
+      - 🇹🇷 土耳其3
+      - 🇹🇷 土耳其4
+      - 🇹🇷 土耳其5
+      - 🇹🇷 土耳其6
+      - 🇹🇷 土耳其7
+      - 🇹🇷 土耳其8
+      - 🇹🇷 土耳其9
+      - 🇹🇷 土耳其10
+      - 尼日利亚1
+      - 尼日利亚2
+      - 尼日利亚3
+      - 尼日利亚4
+      - 尼日利亚5
+      - 尼日利亚6
+      - 尼日利亚7
+      - 尼日利亚8
+      - 尼日利亚9
+      - 尼日利亚10
+  
+  - name: Proxies
+    type: select
+    proxies:
+      - 'Hong Kong 01'
+      - 'Hong Kong 02'
+      - 'Hong Kong 03'
+      - 'Hong Kong 04'
+      - 'Hong Kong 05'
+      - 'Hong Kong 06'
+      - 香港_01
+      - 香港_02
+      - 香港_03
+      - 香港_04
+      - 香港_05
+      - 香港_06
+      - 香港_07
+      - 香港_08
+      - 香港_09
+      - 香港_10
+      - 美国_01
+      - 美国_02
+      - 美国_03
+      - 美国_04
+      - 美国_05
+      - 美国_06
+      - 美国_07
+      - 美国_08
+
+rules:
+  - DOMAIN-SUFFIX,ipapi.co,Googleplay
+  - DOMAIN-SUFFIX,ip-api.com,Googleplay
+  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
+  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
+  - DOMAIN-SUFFIX,ipip.net,Googleplay
+  - DOMAIN-SUFFIX,skk.moe,Googleplay
+  - DOMAIN-KEYWORD,game,Proxies
+  - DOMAIN-KEYWORD,gvt1,Proxies
+  - DOMAIN-KEYWORD,googlevideo.com,Proxies
+  - DOMAIN-KEYWORD,lra8j.com,DIRECT
+  - DOMAIN-KEYWORD,cn,DIRECT
+  - DOMAIN,play-fe.googleapis.com,Googleplay
+  - IP-CIDR,172.217.160.110/32,Googleplay
+  - IP-CIDR,172.217.163.46/32,Googleplay
+  - IP-CIDR,172.217.160.78/32,Googleplay
+  - IP-CIDR,142.251.42.238/32,Googleplay
+  - IP-CIDR,142.251.43.14/32,Googleplay
+  - IP-CIDR,142.251.220.77/32,Googleplay
+  - IP-CIDR,142.251.42.237/32,Googleplay
+  - IP-CIDR,172.217.163.45/32,Googleplay
+  - IP-CIDR,142.250.204.78/32,Googleplay
+  - IP-CIDR,142.250.66.142/32,Googleplay
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
