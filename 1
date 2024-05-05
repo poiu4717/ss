@@ -64,10 +64,7 @@ proxies:
 proxy-groups:
   - name: Googleplay
  
-    type: select
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    udp: true
+
     proxies:
       -  香港_01
       -  香港_02
@@ -93,12 +90,12 @@ proxy-groups:
       - 尼日利亚8
       - 尼日利亚9
       - 尼日利亚10
-  
-  - name: Proxies
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 600
-    udp: true
+    udp: true  
+  - name: Proxies
+
     proxies:
       - 'Hong Kong 01'
       - 'Hong Kong 02'
@@ -124,7 +121,10 @@ proxy-groups:
       - 美国_06
       - 美国_07
       - 美国_08
-
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: true
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
