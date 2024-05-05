@@ -63,7 +63,11 @@ proxies:
 
 proxy-groups:
   - name: Googleplay
+ 
     type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: true
     proxies:
       -  香港_01
       -  香港_02
@@ -92,6 +96,9 @@ proxy-groups:
   
   - name: Proxies
     type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: true
     proxies:
       - 'Hong Kong 01'
       - 'Hong Kong 02'
