@@ -154,7 +154,7 @@ proxy-groups:
 
     use:
       - 机场
-    type: select
+
     url: http://www.gstatic.com/generate_204
     interval: 600
     udp: false
