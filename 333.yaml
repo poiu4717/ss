@@ -71,8 +71,19 @@ proxies:
   - {name: 缅甸8, server: ss.jinhuiios.top, port: 18153, type: socks5, username: 47353961-zone-custom-region-MM-sessid-IyHE9MBxwb-sessTime-30, password: dJIA8BM3}
   - {name: 缅甸9, server: ss.jinhuiios.top, port: 18153, type: socks5, username: 47353961-zone-custom-region-MM-sessid-auAG0Jwrax-sessTime-30, password: dJIA8BM3}
   - {name: 缅甸10, server: ss.jinhuiios.top, port: 18153, type: socks5, username: 47353961-zone-custom-region-MM-sessid-wAta8iLro2-sessTime-30, password: dJIA8BM3}
+  
  
-
+      proxy-providers:
+          机场:
+            type: http
+            url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
+            interval: 86400
+            path: ./proxy_provider/jc.yaml
+            udp: false
+            health-check:
+              enable: true
+              interval: 600
+              url: http://www.gstatic.com/generate_204
 proxy-groups:
   - name: Googleplay
     type: select
@@ -111,17 +122,7 @@ proxy-groups:
       - 缅甸8
       - 缅甸9
       - 缅甸10
-      proxy-providers:
-          机场:
-            type: http
-            url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
-            interval: 86400
-            path: ./proxy_provider/jc.yaml
-            udp: false
-            health-check:
-              enable: true
-              interval: 600
-              url: http://www.gstatic.com/generate_204
+
   - name: Proxies
     type: select
     proxies:
