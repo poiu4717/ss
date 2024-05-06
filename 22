@@ -69,7 +69,7 @@ Japan 05=ss,east.ajjpss.lol,43005,encrypt-method=chacha20-ietf-poly1305,password
           
 
 [Proxy Group]
-Proxies= select, 机场,港HK42,港HK44,🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,🇭🇰 香港04,🇭🇰 香港05,🇭🇰 香港06,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09,🇭🇰 香港10, Hong Kong 01, Hong Kong 02 , Hong Kong 03, Hong Kong 04, Hong Kong 05,Hong Kong 06,🇯🇵 日本01,🇯🇵 日本02,🇯🇵 日本03,🇯🇵 日本04 ,🇯🇵 日本05,🇯🇵 日本06,🇯🇵 日本07,🇯🇵 日本08,Japan 01,Japan 02,Japan 03,Japan 04,Japan 05
+Proxies= select, use=机场，港HK44,🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,🇭🇰 香港04,🇭🇰 香港05,🇭🇰 香港06,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09,🇭🇰 香港10, Hong Kong 01, Hong Kong 02 , Hong Kong 03, Hong Kong 04, Hong Kong 05,Hong Kong 06,🇯🇵 日本01,🇯🇵 日本02,🇯🇵 日本03,🇯🇵 日本04 ,🇯🇵 日本05,🇯🇵 日本06,🇯🇵 日本07,🇯🇵 日本08,Japan 01,Japan 02,Japan 03,Japan 04,Japan 05
 Googleplay= select, 港HK41,港HK42,港HK44,🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,922尼日1, 922尼日2, 922尼日3,922尼日4,922尼日5,缅甸1,缅甸2,缅甸3,缅甸4,缅甸5
 [Rule]
 DOMAIN-SUFFIX,ipapi.co,Googleplay
