@@ -1,0 +1,123 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/poiu4717/ss/main/wo interval=43200 strict=true
+# Thanks @Hackl0us SS-Rule-Snippet
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+dns-server = 114.114.114.114, 223.5.5.5, system
+always-real-ip = stun.l.google.com
+doh-server = https://doh.pub/dns-query
+[Proxy]
+Hong Kong 02 = vmess, 47.76.143.179, 21862, username=ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, udp-relay=false
+Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b739ae8f084b, udp-relay=false
+
+土耳其1=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-tr_session-nOZg4Jbm, udp-relay=false
+土耳其2=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-tr_session-96L2x8iV, udp-relay=false
+土耳其3=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-tr_session-Sah4GYvf, udp-relay=false
+土耳其4=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-tr_session-rWqxI8DQ, udp-relay=false
+土耳其5=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-tr_session-6J1ouilC, udp-relay=false
+922土耳其1=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-TR-sessid-L6pnDynlBv-sessTime-30,dJIA8BM3, udp-relay=false
+922土耳其2=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-TR-sessid-1lN9KxOML4-sessTime-30,dJIA8BM3, udp-relay=false
+922土耳其3=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-TR-sessid-eCLGMG3iLA-sessTime-30,dJIA8BM3, udp-relay=false
+922土耳其4=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-TR-sessid-gArIbiaeMk-sessTime-30,dJIA8BM3, udp-relay=false
+922土耳其5=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-TR-sessid-28qoyeix6K-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚6=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-ng_session-lDBdoVIx, udp-relay=false
+尼日利亚7=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-ng_session-CIHgo4YQ, udp-relay=false
+尼日利亚8=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-ng_session-Ww6VmbQ4, udp-relay=false
+尼日利亚9=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-ng_session-w3YVhnoG, udp-relay=false
+尼日利亚10=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-ng_session-XT2wbqMh, udp-relay=false
+尼日利亚1=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-sessid-csLbFMj9Oy-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚2=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-sessid-fir0cLzsAu-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚3=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-sessid-HmKuDzOF3b-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚4=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-sessid-hx1nB6LzlK-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚5=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-sessid-GkgBbn0NPh-sessTime-30,dJIA8BM3, udp-relay=false
+922尼日1=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-city-lagos-sessid-pNpmg9wyI1-sessTime-30,dJIA8BM3, udp-relay=false
+922尼日2=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-city-lagos-sessid-boCKHAdiKE-sessTime-30,dJIA8BM3, udp-relay=false
+922尼日3=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-city-lagos-sessid-jrqDKrDzql-sessTime-30,dJIA8BM3, udp-relay=false
+922尼日4=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-city-lagos-sessid-eH05egjO9q-sessTime-30,dJIA8BM3, udp-relay=false
+922尼日5=socks5, 20a993.gorelay.xyz,18377,47353961-zone-custom-region-NG-city-lagos-sessid-eH05egjO9q-sessTime-30,dJIA8BM3, udp-relay=false
+土耳其6=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-TR-region-Adana-session-12253d02aa4f4a4-time-30,a654bf8f, udp-relay=false
+土耳其7=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-TR-region-Adana-session-937ef92660a84a9-time-30,a654bf8f, udp-relay=false
+土耳其8=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-TR-region-Adana-session-65baa768e19f4a0-time-30,a654bf8f, udp-relay=false
+土耳其9=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-TR-region-Adana-session-c3aac9e44dd9464-time-30,a654bf8f, udp-relay=false
+土耳其10=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-TR-region-Adana-session-c105a5a439a944b-time-30,a654bf8f, udp-relay=false
+哥伦比亚1=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-co_session-sXxen8bz, udp-relay=false
+哥伦比亚2=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-co_session-x0ZvcEXJ, udp-relay=false
+哥伦比亚3=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-co_session-veUo7ONB, udp-relay=false
+哥伦比亚4=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-co_session-grYUK23w, udp-relay=false
+哥伦比亚5=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-co_session-tCHilW5O, udp-relay=false
+埃及1=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-eg_session-E8O1mvTd, udp-relay=false
+埃及2=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-eg_session-64Gl3OZr, udp-relay=false
+埃及3=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-eg_session-d2pUHEb5, udp-relay=false
+埃及4=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-eg_session-ZcBneUfT, udp-relay=false
+埃及5=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-eg_session-FEGyTDoC, udp-relay=false
+埃及6=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-EG-session-734248d5ac664a8-time-30,a654bf8f, udp-relay=false
+埃及7=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-EG-session-387fdf7ddc6a4db-time-30,a654bf8f, udp-relay=false
+埃及8=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-EG-session-51a19d1397d2469-time-30,a654bf8f, udp-relay=false
+埃及9=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-EG-session-2a0d65579a2346e-time-30,a654bf8f, udp-relay=false
+埃及10=socks5, 20a993.gorelay.xyz,18377,customer-37d279548ab-country-EG-session-8ba8241da6f64ee-time-30,a654bf8f, udp-relay=false
+缅甸1=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-mm_session-K9fASxDo, udp-relay=false
+缅甸2=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-mm_session-jqFagbo1, udp-relay=false
+缅甸3=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-mm_session-rZKBdyMS, udp-relay=false
+缅甸4=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-mm_session-PtaAulvU, udp-relay=false
+缅甸5=socks5, 20a993.gorelay.xyz,18377,poiu4717,9gHUDSv8OK_country-mm_session-0wQMpPdz, udp-relay=false
+[Proxy Group]
+Proxies= select, policy-path=https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b, update-interval=86400, Hong Kong 01, Hong Kong 02 
+Googleplay= select, 土耳其1,土耳其2, 土耳其3, 土耳其4,土耳其5,土耳其6,土耳其7,土耳其8,土耳其9,土耳其10,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,尼日利亚6, 尼日利亚7,尼日利亚8,尼日利亚9,尼日利亚10,哥伦比亚1,哥伦比亚2,哥伦比亚3, 哥伦比亚4,哥伦比亚5,埃及1,埃及2,埃及3,埃及4,埃及5,埃及6,埃及7,埃及8,埃及9,埃及10,922尼日1,922尼日2,922尼日3,922尼日4,922尼日5,922土耳其1,922土耳其2,922土耳其3,922土耳其4,922土耳其5,缅甸1,缅甸2,缅甸3,缅甸4,缅甸5
+[Rule]
+DOMAIN-SUFFIX,ipapi.co,Googleplay
+DOMAIN-SUFFIX,ip-api.com,Googleplay
+DOMAIN-SUFFIX,api.ip.sb,Googleplay
+DOMAIN-SUFFIX,IPInfo.io,Googleplay
+DOMAIN-SUFFIX,ipip.net,Googleplay
+DOMAIN-SUFFIX,skk.moe,Googleplay
+DOMAIN-KEYWORD,game,Proxies
+DOMAIN-KEYWORD,gvt1,Proxies
+DOMAIN-KEYWORD,googlevideo.com,Proxies
+DOMAIN-KEYWORD,lra8j.com,DIRECT
+DOMAIN-KEYWORD,cn,DIRECT
+DOMAIN,play-fe.googleapis.com,Googleplay
+IP-CIDR,172.217.160.110/32,Googleplay
+IP-CIDR,172.217.163.46/32,Googleplay
+IP-CIDR,172.217.160.78/32,Googleplay
+IP-CIDR,142.251.42.238/32,Googleplay
+IP-CIDR,142.251.43.14/32,Googleplay
+IP-CIDR,142.251.220.77/32,Googleplay
+IP-CIDR,142.251.42.237/32,Googleplay
+IP-CIDR,172.217.163.45/32,Googleplay
+IP-CIDR,142.250.204.78/32,Googleplay
+IP-CIDR,142.250.66.142/32,Googleplay
+DOMAIN-SUFFIX,1password.com,DIRECT
+DOMAIN-SUFFIX,vultr.com,DIRECT
+DOMAIN-SUFFIX,mb3admin.com,DIRECT
+DOMAIN-SUFFIX,rixcloud.io,DIRECT
+DOMAIN-SUFFIX,tempestapp.io,DIRECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,baidu-int.com,DIRECT
+DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,alt1-mtalk.google.com,DIRECT
+DOMAIN,alt2-mtalk.google.com,DIRECT
+DOMAIN,alt3-mtalk.google.com,DIRECT
+DOMAIN,alt4-mtalk.google.com,DIRECT
+DOMAIN,alt5-mtalk.google.com,DIRECT
+DOMAIN,alt6-mtalk.google.com,DIRECT
+DOMAIN,alt7-mtalk.google.com,DIRECT
+DOMAIN,alt8-mtalk.google.com,DIRECT
+DOMAIN,alt9-mtalk.google.com,DIRECT
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,time-ios.apple.com,DIRECT
+DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-KEYWORD,github,Proxies
+DOMAIN-SUFFIX,github.com,Proxies
+DOMAIN-SUFFIX,github.io,Proxies
+DOMAIN-SUFFIX,githubassets.com,Proxies
+DOMAIN-SUFFIX,githubusercontent.com,Proxies
+DOMAIN-SUFFIX,googleapis.cn,Proxies
+DOMAIN-SUFFIX,maying.co,Proxies
+DOMAIN-SUFFIX,flowercloud.net,Proxies
+DOMAIN-SUFFIX,socloud.me,Proxies
+DOMAIN-SUFFIX,ytoo.asia,Proxies
+DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+GEOIP,CN,DIRECT
+FINAL,Proxies
+FINAL,Proxies
