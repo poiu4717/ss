@@ -23,11 +23,11 @@ proxies:
   - {name: 尼日3, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-lmeP0Xxc}
   - {name: 尼日4, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-7CFXbh4G}
   - {name: 尼日5, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-wHXERByP}
-  - {name: 尼日6, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-0NwufsGv7l-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日7, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-adjAnHcDq1-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日8, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-4sxB5iGlL6-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日9, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-4sxB5iGlL6-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日10, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-NG-sessid-LEHet8fx25-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日6, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-ng-session-f1660b6bc798-sessTime-30, password: AA112211}
+  - {name: 尼日7, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-ng-session-eb26f7fd92f5-sessTime-30, password: AA112211}
+  - {name: 尼日8, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-ng-session-e2ff85c99994-sessTime-30, password: AA112211}
+  - {name: 尼日9, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-ng-session-207059b4eab1-sessTime-30, password: AA112211}
+  - {name: 尼日10, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-ng-session-f2b9ae3a27c7-sessTime-30, password: AA112211}
   - {name: 埃及1, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-wODS38kr}
   - {name: 埃及2, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-ZUNJwKQv}
   - {name: 埃及3, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-A08GuOlU}
@@ -43,21 +43,21 @@ proxies:
   - {name: 土耳其3, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-YGbIP18q}
   - {name: 土耳其4, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-0XfSIoL6}
   - {name: 土耳其5, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-UMJ5j3mb}
-  - {name: 土耳其6, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-5dhpCEbcvf-sessTime-30, password: dJIA8BM3}
-  - {name: 土耳其7, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-DDEeb4O4wM-sessTime-30, password: dJIA8BM3}
-  - {name: 土耳其8, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-eLwu3EJBP5-sessTime-30, password: dJIA8BM3}
-  - {name: 土耳其9, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-3Hu8bJ18qG-sessTime-30, password: dJIA8BM3}
-  - {name: 土耳其10, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-TR-sessid-xoIiBl7IGc-sessTime-30, password: dJIA8BM3}
+  - {name: 土耳其6, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-tr-session-84737e1efa80-sessTime-30, password: AA112211}
+  - {name: 土耳其7, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-tr-session-4c5369f5cd88-sessTime-30, password: AA112211}
+  - {name: 土耳其8, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-tr-session-db9b91f8c778-sessTime-30, password: AA112211}
+  - {name: 土耳其9, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-tr-session-587254ad169e-sessTime-30, password: AA112211}
+  - {name: 土耳其10, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-tr-session-924175dd072f-sessTime-30, password: AA112211}
   - {name: 缅甸1, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mm_session-K9fASxDo}
   - {name: 缅甸2, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mm_session-jqFagbo1}
   - {name: 缅甸3, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mm_session-rZKBdyMS}
   - {name: 缅甸4, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mm_session-PtaAulvU}
   - {name: 缅甸5, server: 43.249.172.6, port: 7001, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-mm_session-0wQMpPdz}
-  - {name: 缅甸6, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-MM-sessid-c619f2ngNM-sessTime-30, password: dJIA8BM3}
-  - {name: 缅甸7, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-MM-sessid-7digtGkhoJ-sessTime-30, password: dJIA8BM3}
-  - {name: 缅甸8, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-MM-sessid-IyHE9MBxwb-sessTime-30, password: dJIA8BM3}
-  - {name: 缅甸9, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-MM-sessid-auAG0Jwrax-sessTime-30, password: dJIA8BM3}
-  - {name: 缅甸10, server: 43.249.172.6, port: 7002, type: socks5, username: 47353961-zone-custom-region-MM-sessid-wAta8iLro2-sessTime-30, password: dJIA8BM3}
+  - {name: 缅甸6, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-mm-session-7f69b616dbe5-sessTime-30, password: AA112211}
+  - {name: 缅甸7, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-mm-session-9cd77da89108-sessTime-30, password: AA112211}
+  - {name: 缅甸8, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-mm-session-598c62d44d01-sessTime-30, password: AA112211}
+  - {name: 缅甸9, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-mm-session-4d0d19adbc19-sessTime-30, password: AA112211}
+  - {name: 缅甸10, server: 43.249.172.6, port: 7002, type: socks5, username: poiu4717-zone-resi-region-mm-session-1ebc13cdcff9-sessTime-30, password: AA112211}
 proxy-providers:
           机场:
             type: http
@@ -189,3 +189,4 @@ rules:
   - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
   - GEOIP,CN,DIRECT
   - MATCH,Proxies
+
